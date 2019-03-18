@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser 'chrome'"
+    "start": "run-script-os",
+    "start": "browser-sync start --server --files '**/*.css, **/*.html,
+    **/*.js, !node_modules/**/*' --directory --port 7777 --browser 'chrome'"
   },
   "author": "",
   "license": "ISC",
